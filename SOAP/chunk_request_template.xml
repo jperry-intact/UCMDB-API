@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:quer="http://schemas.hp.com/ucmdb/1/params/query" xmlns:typ="http://schemas.hp.com/ucmdb/1/types" xmlns:prop="http://schemas.hp.com/ucmdb/1/types/props">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <quer:pullTopologyMapChunks>
+         <quer:cmdbContext>
+            <typ:callerApplication>powershell</typ:callerApplication>
+         </quer:cmdbContext>
+         <typ:ChunkRequest>
+            <typ:chunkNumber>CURRENTCHUNK</typ:chunkNumber>
+            <typ:chunkInfo>
+               <typ:numberOfChunks>TOTALNUMBEROFCHUNKS</typ:numberOfChunks>
+               <typ:chunksKey>
+                  <typ:key1>CHUNKKEYONE</typ:key1>
+                  <typ:key2>CHUNKKEYTWO</typ:key2>
+               </typ:chunksKey>
+            </typ:chunkInfo>
+         </typ:ChunkRequest>
+      </quer:pullTopologyMapChunks>
+   </soapenv:Body>
+</soapenv:Envelope>

@@ -21,4 +21,6 @@ dict_auth = ast.literal_eval(auth_cookie)
 
 topologyresp = requests.post(ucmdb_topology_uri, headers=dict_auth, data=ucmdb_tql_query, verify=False)
 topologyjsonReturn = topologyresp.json()
-print(topologyjsonReturn)
+topologyjsonReturnformatted = json.dumps(topologyresp)
+
+print(topologyjsonReturnformatted)

@@ -1,0 +1,39 @@
+{
+    "nodes": [
+        {
+            "linkConditions": [
+                {
+                    "linkIdentifier": "link",
+                    "minCardinality": "*",
+                    "maxCardinality": "*"
+                }
+            ],
+            "type": "managed_object",
+            "queryIdentifier": "managed_object1",
+            "visible": true,
+            "includeSubtypes": true,
+            "layout": [],
+            "attributeConditions": [],
+            "ids": []
+        },
+        {
+            "type": "managed_object",
+            "queryIdentifier": "managed_object2",
+            "visible": true,
+            "includeSubtypes": true,
+            "layout": [],
+            "attributeConditions": [],
+            "ids": []
+        }
+    ],
+    "relations": [
+        {
+            "type": "managed_relationship",
+            "queryIdentifier": "link",
+            "visible": true,
+            "includeSubtypes": false,
+            "from": "managed_object1",
+            "to": "managed_object2"
+        }
+    ]
+}

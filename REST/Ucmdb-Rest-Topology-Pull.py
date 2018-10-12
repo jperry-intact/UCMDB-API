@@ -6,7 +6,6 @@ import json
 ucmdb_user = "****UCMDB_USER****"
 ucmdb_password = "****UCMDB_PASSWORD****"
 ucmdb_root_url_and_port = "****UCMDB_PROTOCOL****://****UCMDB_HOST****:****UCMDB_PORT****"
-ucmdb_tql_query = "****UCMDB_TQL_QUERY****"
 
 ucmdb_auth_uri = ucmdb_root_url_and_port + "/rest-api/authenticate"
 ucmdb_topology_uri = ucmdb_root_url_and_port + "/rest-api/topologyQuery"
@@ -20,7 +19,7 @@ auth_value = "'Authorization': 'Bearer " + authParsedValue +"'"
 auth_cookie = "{" + auth_value + "}"
 dict_auth = ast.literal_eval(auth_cookie)
 
-with open("TopologyQuery.json") as json_file:
+with open(".\REST\TopologyQuery.json") as json_file:
     json_topologyqueryraw = json.load(json_file)
 
 json_topologyquery = json.dumps(json_topologyqueryraw)

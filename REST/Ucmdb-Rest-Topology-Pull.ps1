@@ -1,5 +1,8 @@
 #<Variables>#
 $outputlocation = "****FILE_OUTPUT_LOCATION****"
+$ucmdb_protocol = '****UCMDB_PROTOCOL****'
+$ucmdb_host = '****UCMDB_HOST****'
+$ucmdb_port = '****UCMDB_PORT****'
 
 $body = @{
     username = "****UCMDB_USER****"

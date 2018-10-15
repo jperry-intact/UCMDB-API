@@ -1,0 +1,62 @@
+﻿[
+    {
+        "ucmdbId":  "4345821395641ba1925d33476b1b8d4e",
+        "globalId":  null,
+        "type":  "node",
+        "properties":  null
+    },
+    {
+        "ucmdbId":  "44e12d291288b112850cc29b52ad852e",
+        "globalId":  null,
+        "type":  "dns_server",
+        "properties":  null
+    },
+    {
+        "ucmdbId":  "45bd875ebaab18ae94ec6f6349f19a0b",
+        "globalId":  null,
+        "type":  "dns_server",
+        "properties":  null
+    },
+    {
+        "ucmdbId":  "48b71ca9f59c7bf49862a192d3313163",
+        "globalId":  null,
+        "type":  "node",
+        "properties":  null
+    },
+    {
+        "ucmdbId":  "4c354fe78d52bf48b7e2be82a1781b0a",
+        "globalId":  null,
+        "type":  "node",
+        "properties":  null
+    },
+    {
+        "ucmdbId":  "4d1a0fa754208d84831d0ad1f82e668e",
+        "globalId":  null,
+        "type":  "running_software",
+        "properties":  null
+    },
+    {
+        "ucmdbId":  "4d896b0b3dd89c19b455000791c0eff7",
+        "globalId":  null,
+        "type":  "nt",
+        "properties":  null
+    },
+    {
+        "ucmdbId":  "4dc3feecd4c1bc8da86f22ea4c104ec0",
+        "globalId":  null,
+        "type":  "postgresql",
+        "properties":  null
+    },
+    {
+        "ucmdbId":  "4ddfea403406ded89927067830258c34",
+        "globalId":  null,
+        "type":  "running_software",
+        "properties":  null
+    },
+    {
+        "ucmdbId":  "4e525431f428f0459186bbf1e2bc2da6",
+        "globalId":  null,
+        "type":  "ntcmd",
+        "properties":  null
+    }
+]

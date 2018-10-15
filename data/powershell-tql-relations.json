@@ -1,0 +1,50 @@
+﻿[
+    {
+        "ucmdbId":  "404713c330a400bdbbba36d784c5b550",
+        "globalId":  null,
+        "type":  "composition",
+        "properties":  null,
+        "end1Id":  "4d896b0b3dd89c19b455000791c0eff7",
+        "end2Id":  "4dc3feecd4c1bc8da86f22ea4c104ec0"
+    },
+    {
+        "ucmdbId":  "41231003c1363f25bbe50c1a37a8060e",
+        "globalId":  null,
+        "type":  "composition",
+        "properties":  null,
+        "end1Id":  "4d896b0b3dd89c19b455000791c0eff7",
+        "end2Id":  "4e525431f428f0459186bbf1e2bc2da6"
+    },
+    {
+        "ucmdbId":  "414ca06455fc9fe5b6c81c2452d74d31",
+        "globalId":  null,
+        "type":  "composition",
+        "properties":  null,
+        "end1Id":  "48b71ca9f59c7bf49862a192d3313163",
+        "end2Id":  "45bd875ebaab18ae94ec6f6349f19a0b"
+    },
+    {
+        "ucmdbId":  "4746d1ea2cdb017d986e188ef81ce160",
+        "globalId":  null,
+        "type":  "composition",
+        "properties":  null,
+        "end1Id":  "4d896b0b3dd89c19b455000791c0eff7",
+        "end2Id":  "4ddfea403406ded89927067830258c34"
+    },
+    {
+        "ucmdbId":  "4853826cfc77bcf287144a99ca5c6913",
+        "globalId":  null,
+        "type":  "composition",
+        "properties":  null,
+        "end1Id":  "4345821395641ba1925d33476b1b8d4e",
+        "end2Id":  "44e12d291288b112850cc29b52ad852e"
+    },
+    {
+        "ucmdbId":  "4e9b5f5fb601b0d7989ef7a7b4155e61",
+        "globalId":  null,
+        "type":  "composition",
+        "properties":  null,
+        "end1Id":  "4c354fe78d52bf48b7e2be82a1781b0a",
+        "end2Id":  "4d1a0fa754208d84831d0ad1f82e668e"
+    }
+]

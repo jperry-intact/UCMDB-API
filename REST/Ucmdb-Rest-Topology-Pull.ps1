@@ -7,7 +7,7 @@ $body = @{
     clientContext = "1"
 }
 
-$topology_query = Get-Content -Raw -Path '.\REST\TopologyQuery.json'
+$topology_query = Get-Content -Raw -Path '*****TQL_QUERY_PATH*****'
 
 <# this stuff is to ignore ssl errors#>
 
@@ -30,4 +30,6 @@ $authtoken = Invoke-RestMethod -Uri  https://****UCMDB_HOST****:****UCMDB_PORT**
 
 $results = Invoke-RestMethod -Uri  https://****UCMDB_HOST****:****UCMDB_PORT****/rest-api/topologyQuery -Method Post -Headers @{"Authorization" = "Bearer " + $authtoken.token} -Body $topology_query -ContentType 'application/json'
 
-ConvertTo-Json -InputObject $results -Depth 100 | Out-File $outputlocation\powershell-topology.json
+ConvertTo-Json -InputObject $results.cis -Depth 100 | Out-File $outputlocation\powershell-tql-cis.json -Encoding utf8
+
+ConvertTo-Json -InputObject $results.relations -Depth 100 | Out-File $outputlocation\powershell-tql-relations.json -Encoding utf8

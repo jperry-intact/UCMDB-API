@@ -26,6 +26,8 @@ json_topologyquery = json.dumps(json_topologyqueryraw)
 
 topologyresp = requests.post(ucmdb_topology_uri, headers=dict_auth, json=json_topologyquery, verify=False)
 topologyjsonReturn = topologyresp.json()
-topologyjsonReturnformatted = json.dumps(topologyjsonReturn, indent=1, sort_keys=True)
+topologyjsonReturnformatted_cis = json.dumps(topologyjsonReturn['cis'], indent=1, sort_keys=True)
+topologyjsonReturnformatted_relations = json.dumps(topologyjsonReturn['relations'], indent=1, sort_keys=True)
 
-print(topologyjsonReturnformatted)
+print(topologyjsonReturnformatted_cis)
+print(topologyjsonReturnformatted_relations)

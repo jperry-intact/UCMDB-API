@@ -28,4 +28,6 @@ $authtoken = Invoke-RestMethod -Uri https://****UCMDB_HOST****:****UCMDB_PORT***
 
 $results = Invoke-RestMethod -Uri https://****UCMDB_HOST****:****UCMDB_PORT****/rest-api/topology -Method Post -Headers @{"Authorization" = "Bearer " + $authtoken.token} -Body $tql_query
 
-ConvertTo-Json -InputObject $results -Depth 100 | Out-File $outputlocation\results.json
+ConvertTo-Json -InputObject $results.cis -Depth 100 | Out-File $outputlocation\powershell-tql-cis.json -Encoding utf8
+
+ConvertTo-Json -InputObject $results.relations -Depth 100 | Out-File $outputlocation\powershell-tql-relations.json -Encoding utf8
